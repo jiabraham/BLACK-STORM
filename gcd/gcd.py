@@ -10,6 +10,17 @@ if (a < 1 or b < 1):
     exit(0)
 
 def euclid(n, m):
+    """Euclid Algorithm.
+       
+       Computes Euclid's algorithm to find the greatest common divisor of two integers 
+
+       Args:
+          n positive integer greater than one
+          m positive integer greater than one
+       Returns:
+          Greatest common divisor among the two integers inputted
+    """
+
     if (n == 1 or m ==  1):
         return 1
     if (n == 0 or m == 0):
